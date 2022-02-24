@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html, body, html * {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    aspect-ratio: 960/560;
+    background-image: url('../layered-waves-haikei.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+}
+
+main {
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 200px auto 0 auto;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2em;
+    img {
+        width: 20%;
+        object-fit: contain;
+    }
+    h1 {
+        font-size: 70px;
+    }
+}
+
+#over{
+    height: 740px;
+    width: 431px;
+    position: relative;
+    z-index: 1;
+    background-image: url("../iphone.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#over iframe {
+    position: absolute;
+    top: 40px;
+    left: 55px;
+    border: none;
+    height: 884px;
+    width: 429px;
+    z-index: -1;
+    border-radius: 5%;
+    transform: scale(0.73);
+    margin: calc((-884px) * (1 - 0.73) / 2)
+    calc((-429px) * (1 - 0.73) / 2)
+}
+
+.btns {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
