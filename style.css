@@ -66,4 +66,9 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 1em;
+}
+.btns button {
+  border: none;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
