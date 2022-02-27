@@ -4,14 +4,18 @@ html, body, html * {
   font-family: "Roboto", sans-serif;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
   aspect-ratio: 960/560;
   background-image: url("https://raw.githubusercontent.com/jonasrht/LandingPage/8cc89a4f8b31a5d9666aaca67dcda7506e7f2b4b/img/layered-waves-haikei.svg?token=AK4VRI32MRMN5K7QPH3IMWTCDN5DM");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  overflow-y: hidden;
+  background-attachment: fixed;
 }
 
 main {
