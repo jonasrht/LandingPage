@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   aspect-ratio: 960/560;
-  background-image: url("../img/layered-waves-haikei.svg");
+  background-image: url("https://raw.githubusercontent.com/jonasrht/LandingPage/8cc89a4f8b31a5d9666aaca67dcda7506e7f2b4b/img/layered-waves-haikei.svg?token=AK4VRI32MRMN5K7QPH3IMWTCDN5DM");
   background-size: contain;
   background-repeat: no-repeat;
   overflow-y: hidden;
@@ -43,7 +43,7 @@ main {
   width: 431px;
   position: relative;
   z-index: 1;
-  background-image: url("../img/iphone.png");
+  background-image: url("https://github.com/jonasrht/LandingPage/blob/master/img/iphone.png?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
 }
